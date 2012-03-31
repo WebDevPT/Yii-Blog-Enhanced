@@ -14,8 +14,20 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'content'); ?>
-		<?php echo CHtml::activeTextArea($model,'content',array('rows'=>10, 'cols'=>70)); ?>
-		<p class="hint">You may use <a target="_blank" href="http://daringfireball.net/projects/markdown/syntax">Markdown syntax</a>.</p>
+
+                <?php
+
+                $this->widget('ext.xheditor.XHeditor',array(
+                    'model'=>$model,
+                    'modelAttribute'=>'content',
+                    'showModelAttributeValue'=>true, //defaults to true, displays the value of $modelInstance->attribute in the textarea
+                    'config'=>array(
+                        'tools'=>'mfull', // mini, simple, mfull, full or from XHeditor::$_tools
+                        'width'=>'100%',
+                    ),
+                ));
+
+                ?>
 		<?php echo $form->error($model,'content'); ?>
 	</div>
 

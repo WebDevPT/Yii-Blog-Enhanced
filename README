@@ -1,4 +1,4 @@
-This website is based on the Yii Blog Demo project.
+This project is based on the Yii Blog Demo project.
 
 Using Yii Framework v1.1.10
 
@@ -13,7 +13,10 @@ New Features List:
 
 Upcoming Features List:
 
-    soon
+    -Custom made theme
+    -User registration
+    -Banner Management
+    more soon
 
 Demo
    

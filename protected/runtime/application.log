@@ -1,0 +1,28 @@
+2012/03/31 04:51:32 [error] [exception.CDbException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+2012/03/31 04:51:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection.' in C:\wamp\www\framework-yii-1.1.10\db\CDbConnection.php:388
+Stack trace:
+#0 C:\wamp\www\framework-yii-1.1.10\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\framework-yii-1.1.10\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\framework-yii-1.1.10\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\framework-yii-1.1.10\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\wamp\www\framework-yii-1.1.10\db\ar\CActiveRecord.php(615): CApplication->getDb()
+#5 C:\wamp\www\framework-yii-1.1.10\db\ar\CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\framework-yii-1.1.10\db\ar\CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Post))
+#7 C:\wamp\www\framework-yii-1.1.10\web\CActiveDataProvider.php(75): CActiveRecord::model('Post')
+#8 C:\wamp\www\Yii-Blog-Enhanced\protected\controllers\PostController.php(132): CActiveDataProvider->__construct('Post', Array)
+#9 C:\wamp\www\framework-yii-1.1.10\web\actions\CInlineAction.php(50): PostController->actionIndex()
+#10 C:\wamp\www\framework-yii-1.1.10\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\framework-yii-1.1.10\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\framework-yii-1.1.10\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\framework-yii-1.1.10\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\framework-yii-1.1.10\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\framework-yii-1.1.10\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\framework-yii-1.1.10\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\framework-yii-1.1.10\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\framework-yii-1.1.10\web\CWebApplication.php(276): CController->run('')
+#19 C:\wamp\www\framework-yii-1.1.10\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 C:\wamp\www\framework-yii-1.1.10\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\Yii-Blog-Enhanced\index.php(11): CApplication->run()
+#22 {main}
+REQUEST_URI=/Yii-Blog-Enhanced/index.php
+---

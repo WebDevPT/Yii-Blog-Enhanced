@@ -14,4 +14,4 @@ $this->breadcrumbs=array(
 
 <p>New Features List:</p>
 
-<p>soon</p>
+<p>comming soon</p>

@@ -16,6 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+                'ext.esearch.*',
 	),
 
 	'defaultController'=>'post',

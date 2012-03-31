@@ -20,6 +20,11 @@ class SiteController extends Controller
 			'page'=>array(
 				'class'=>'CViewAction',
 			),
+                        'search'=>array(
+                            'class'=>'ext.esearch.SearchAction',
+                            'model'=>'Post',
+                            'attributes'=>array('title', 'tags', 'content'),
+                        ),                   
 		);
 	}
 

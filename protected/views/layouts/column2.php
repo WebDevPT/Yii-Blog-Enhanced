@@ -7,6 +7,7 @@
 	</div>
 	<div class="span-6 last">
 		<div id="sidebar">
+                        <?php SearchAction::renderInputBox(); ?>
 			<?php if(!Yii::app()->user->isGuest) $this->widget('UserMenu'); ?>
 
 			<?php $this->widget('TagCloud', array(

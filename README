@@ -1,0 +1,15 @@
+This website is based on the Yii Blog Demo project.
+
+Using Yii Framework v1.1.10
+
+The objective of this project is to enhance the initial demo version with new features.
+
+more info soon
+
+New Features List:
+
+    -Wysiwyg Editor when creating new Post content using extension <a href="http://www.yiiframework.com/extension/xheditor-widget/">xheditor-widget</a>
+
+Upcoming Features List:
+
+    soon

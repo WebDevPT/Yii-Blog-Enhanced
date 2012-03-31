@@ -8,8 +8,8 @@ more info soon
 
 New Features List:
 
-    -Wysiwyg Editor when creating new Post content using extension xheditor-widget (http://www.yiiframework.com/extension/xheditor-widget)
-    -Search Bar using extension esearch (http://www.yiiframework.com/extension/esearch/)
+    -Wysiwyg Editor using extension xheditor-widget (http://www.yiiframework.com/extension/xheditor-widget)
+    -Search Bar using modified extension esearch (http://www.yiiframework.com/extension/esearch/)
 
 Upcoming Features List:
 

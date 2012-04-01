@@ -17,6 +17,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
                 'ext.esearch.*',
+                'ext.usercounter.*',
 	),
 
 	'defaultController'=>'post',
@@ -27,6 +28,10 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+                // UserCounter
+                'counter' => array(
+                    'class' => 'UserCounter',
+                ),            
 /*            
 		'db'=>array(
 			'connectionString' => 'sqlite:protected/data/blog.db',

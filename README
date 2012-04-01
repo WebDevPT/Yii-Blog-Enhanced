@@ -10,6 +10,7 @@ New Features List:
 
     -Wysiwyg Editor using extension xheditor-widget (http://www.yiiframework.com/extension/xheditor-widget)
     -Search Bar using modified extension esearch (http://www.yiiframework.com/extension/esearch/)
+    -Added Blog Statistics using extension usercounter (http://www.yiiframework.com/extension/usercounter)
 
 Upcoming Features List:
 

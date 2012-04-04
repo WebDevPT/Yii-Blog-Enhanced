@@ -1,1 +1,5 @@
-/nbproject/private/
+/nbproject
+*.DS_Store
+/assets/*
+/protected/runtime/*
+.idea

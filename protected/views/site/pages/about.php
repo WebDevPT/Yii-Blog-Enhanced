@@ -26,9 +26,3 @@ $this->breadcrumbs=array(
 <ul>
     <li>soon</li> 
 </ul>
-
-<h4>Requested Features List:</h4>
-
-<ul>
-    <li>send your requests</li>
-</ul>

@@ -1,17 +1,20 @@
-This project is based on the Yii Blog Demo project.
+This project is based on the Yii Blog Demo project, using Yii Framework v1.1.10
 
-Using Yii Framework v1.1.10
+The objective of this project is to enhance the initial demo version with new features. Follow this project and you are welcome to contribute in any way. Join the forum discussion on Yii website.
 
-The objective of this project is to enhance the initial demo version with new features.
 
-more info soon
+Forum discussion
+
+English (http://www.yiiframework.com/forum/index.php/topic/30503-yii-blog-enhanced-on-github)
+Portuguese (http://www.yiiframework.com/forum/index.php/topic/30502-yii-blog-melhorado-no-github)
+
 
 New Features List:
 
-    -Wysiwyg Editor using extension xheditor-widget (http://www.yiiframework.com/extension/xheditor-widget)
-    -Search Bar using modified extension esearch (http://www.yiiframework.com/extension/esearch/)
-    -Added Blog Statistics using extension usercounter (http://www.yiiframework.com/extension/usercounter)
-    -Added social bookmarks to posts using extension wsocialbutton (http://www.yiiframework.com/extension/wsocialbutton)
+    -Wysiwyg Editor using extension xheditor-widget
+    -Search Bar using modified extension esearch
+    -Added Blog Statistics using extension usercounter
+    -Added social bookmarks to posts using extension wsocialbutton
 
 Upcoming Features List:
 

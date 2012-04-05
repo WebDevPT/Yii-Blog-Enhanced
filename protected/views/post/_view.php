@@ -11,6 +11,7 @@
 			echo $data->content;
 			$this->endWidget();
 		?>
+                <?php $this->widget('ext.WSocialButton.WSocialButton', array('style'=>'standard'));?>
 	</div>
 	<div class="nav">
 		<b>Tags:</b>

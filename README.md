@@ -5,9 +5,8 @@ The objective of this project is to enhance the initial demo version with new fe
 
 Forum discussion
 
-English (http://www.yiiframework.com/forum/index.php/topic/30503-yii-blog-enhanced-on-github)
-Portuguese (http://www.yiiframework.com/forum/index.php/topic/30502-yii-blog-melhorado-no-github)
-
+[English](http://www.yiiframework.com/forum/index.php/topic/30503-yii-blog-enhanced-on-github)
+[Portuguese](http://www.yiiframework.com/forum/index.php/topic/30502-yii-blog-melhorado-no-github)
 
 New Features List:
 

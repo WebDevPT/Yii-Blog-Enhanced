@@ -35,6 +35,7 @@ $this->breadcrumbs=array(
     <li>Search Bar using modified extension <a href="http://www.yiiframework.com/extension/esearch">esearch</a></li>
     <li>Added Blog Statistics using extension <a href="http://www.yiiframework.com/extension/usercounter">usercounter</a></li>
     <li>Added social bookmarks to posts using extension <a href="http://www.yiiframework.com/extension/wsocialbutton">wsocialbutton</a></li>
+    <li>Added sponsor banners using modified extension <a href="http://www.yiiframework.com/extension/mflip">mflip</a></li>
 </ul>
 
 <h4>Upcoming Features List:</h4>

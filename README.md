@@ -14,6 +14,7 @@ New Features List:
     -Search Bar using modified extension esearch
     -Added Blog Statistics using extension usercounter
     -Added social bookmarks to posts using extension wsocialbutton
+    -Added sponsor banners using modified extension mflip
 
 Upcoming Features List:
 

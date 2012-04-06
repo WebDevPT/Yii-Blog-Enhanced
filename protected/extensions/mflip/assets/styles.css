@@ -1,0 +1,68 @@
+body{
+	/* Setting default text color, background and a font stack */
+	font-size:0.1em; /* default font-size:0.825em; */
+	color:#666;
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.sponsorListHolder{
+	margin-bottom:0px;
+}
+
+.sponsor{
+	width:85px;/* default width:180px; */
+	height:85px;/* default height:180px; */
+	float:left;
+	margin:5px;
+
+	/* Giving the sponsor div a relative positioning: */
+	position:relative;
+	cursor:pointer;
+}
+
+.sponsorFlip{
+	/*  The sponsor div will be positioned absolutely with respect
+		to its parent .sponsor div and fill it in entirely */
+
+	position:absolute;
+	left:0;
+	top:0;
+	width:85px;
+	height:85px;
+	border:1px solid #ddd;
+	background:url("img/background.jpg") no-repeat center center #f9f9f9;
+}
+
+.sponsorFlip:hover{
+	border:1px solid #999;
+
+	/* CSS3 inset shadow: */
+	-moz-box-shadow:0 0 30px #999 inset;
+	-webkit-box-shadow:0 0 30px #999 inset;
+	box-shadow:0 0 30px #999 inset;
+}
+
+.sponsorFlip img{
+	/* Centering the logo image in the middle of the .sponsorFlip div */
+
+	position:absolute;
+	top:0px; /* default top:50%; */
+	left:0px; /* default left:50%; */
+        right:0px; /* default left:50%; */
+        bottom:0px; /* default left:50%; */
+	margin:0; /* default margin:-70px 0 0 -70px; */
+}
+
+.sponsorData{
+	font-size:1px; /* default font-size:11px; */
+	padding:5px 2px 5px 2px; /* default padding:50px 10px 20px 20px; */
+        margin: 5px;
+        font-style:italic; 
+    /* Hiding the .sponsorData div */
+	display:none;      
+}
+.clear{
+	/* This class clears the floats */
+	clear:both;
+}

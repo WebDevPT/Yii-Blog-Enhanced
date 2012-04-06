@@ -21,6 +21,7 @@ Upcoming Features List:
     -Custom made theme
     -User registration
     -Banner Management
+    -Multi-language support
     more soon
 
 Demo

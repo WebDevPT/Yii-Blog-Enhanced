@@ -44,5 +44,6 @@ $this->breadcrumbs=array(
     <li>Custom made theme</li>
     <li>User registration</li> 
     <li>Banner Management</li> 
+    <li>Multi-language support</li>
     <li>more soon</li> 
 </ul>

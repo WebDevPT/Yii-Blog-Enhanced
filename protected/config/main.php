@@ -17,7 +17,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
                 'ext.esearch.*',
-                'ext.usercounter.*',
+                'ext.usercounter.*',           
 	),
 
 	'defaultController'=>'post',
